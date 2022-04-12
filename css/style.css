@@ -20,3 +20,7 @@ img {
   margin: 10px;
   border: 4px solid #00FFCC
 }
+.gifImg {
+  text-align: center;
+  display: none;
+}
