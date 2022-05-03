@@ -22,5 +22,24 @@ img {
 }
 .gifImg {
   text-align: center;
-  display: none;
+  display: block;
+}
+
+.gifImg:hover {
+  border: white solid 6px; 
+/*   animation: big 8s; */
+}
+.gifImgHolder {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+input, button {
+  margin-bottom: 1%;
+}
+/* animation */
+@keyframes big {
+  from {width: 10%; height: 10%;}
+  to {width: 100%; height: 100%;}
 }
